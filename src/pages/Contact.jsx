@@ -44,7 +44,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:8000/api/contact", formData);
+      const response = await axios.post("https://restaurant-api-bice.vercel.app/api/contact", formData);
       setStatus({ message: response.data.message || "Form submitted successfully!", type: "success" });
       setFormData({ name: "", email: "", phone: "", date: "",time:"", message: "" });
     } catch (error) {
