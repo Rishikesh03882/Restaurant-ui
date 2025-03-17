@@ -1,0 +1,86 @@
+/* Background Styling */
+.contact-container {
+    background-image: url(../utils/img/contact-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  /* Row Styling */
+  .contact-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Left Side - Thought Box */
+  .thought-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .thought-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  .thought-content h2 {
+    color: #198754;
+    font-weight: bold;
+  }
+  
+  .thought-content p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* Right Side - Form Box */
+  .form-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-content {
+    background-color: rgba(0, 0, 0, 0.509);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 550px;
+    color: #fff;
+  }
+  
+  .form-content h2 {
+    text-align: center;
+    color: #34ce6d;
+    font-weight: bold;
+  }
+  
+  /* Form Styling */
+  .form-content form label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .form-content form input,
+  .form-content form textarea {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #207ccd;
+  }
+  
